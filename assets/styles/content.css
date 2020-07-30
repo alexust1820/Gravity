@@ -1,0 +1,10 @@
+.content.-header,.-main,.-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content__info {
+	width: 400px;
+}
+

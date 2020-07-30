@@ -1,0 +1,13 @@
+.section {
+	min-height: 100vh;
+}
+
+.section.-main {
+	position: relative;
+}
+
+.brown {
+	height: 100vh;
+	width: 35%;
+	background-color: var(--c-brown);
+}

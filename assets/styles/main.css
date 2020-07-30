@@ -1,0 +1,13 @@
+.main__img {
+	background-image: url(../img/main-img.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 450px;
+	height: 470px;
+	background-size: 150%;
+	margin-right: 80px;
+}
+
+.project {
+	transform: rotate(90deg);
+}

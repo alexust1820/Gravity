@@ -1,0 +1,60 @@
+.btn {
+	background-color: transparent;
+	border: transparent;
+	padding: 0;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.btn.-header,.-logo {
+	font-style: normal;
+	font-size: 24px;
+}
+
+.btn.-logo {
+	font-weight: bold;
+	color: var(--c-white);
+}
+
+.btn.-project {
+	height: 1px;
+	width: 170px;
+	position: relative;
+}
+
+.btn.-start {
+	background-color: var(--c-blue);
+	padding: 15px 25px;
+	color: var(--c-white);
+	text-transform: uppercase;
+}
+
+.btn.-nav {
+	width: 40px;
+	height: 40px;
+	background-color: var(--c-nav);
+	position: relative;
+}
+
+.btn.-nav:after {
+	content: "";
+	width: 10px;
+	height: 10px;
+	border-bottom: 2px solid var(--c-white);
+	border-right: 2px solid var(--c-white);
+	position: absolute;
+	top: 15px;
+}
+
+.btn.-nav.-right:after {
+	transform: rotate(-45deg);
+	left: 12px;
+
+}
+
+.btn.-nav.-left:after {
+	transform: rotate(135deg);
+	right: 12px;
+}

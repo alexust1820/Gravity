@@ -1,0 +1,16 @@
+.burger {
+	background-color: var(--c-black);
+	width: 20px;
+	height: 3px;
+	position: relative;
+}
+
+.burger:after {
+	content: "";
+	position: absolute;
+	width: 15px;
+	height: 3px;
+	background-color: var(--c-black);
+	bottom: -6px;
+	right: 0;
+}
